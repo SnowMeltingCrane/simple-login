@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的系统</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="test.js"></script>
+</head>
+<body>
+    <h1>登录到系统</h1>
+    <form method="post" action="login">
+        <hr>
+        <div>
+            <label >
+                <input type="text" placeholder="用户名" id="username" name="username">
+            </label>
+        </div>
+        <div>
+            <label >
+                <input type="password" placeholder="密码" id="password" name="password">
+            </label>
+        </div>
+        <div>
+            <label>
+                <input type="checkbox" placeholder="记住我" name="remember-me">
+                记住我
+            </label>
+        </div>
+        <div>
+            <button type="submit" >登录</button>
+        </div>
+    </form>
+    <div id = time></div>
+        <br>
+        <button onclick="updateTime()">点我更新时间</button>
+</body>
+</html>

@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+
+input{
+    border: 0;
+    background: #eeeeee;
+    line-height: 40px;
+    border-radius: 20px;
+    padding: 0 20px 0 20px;
+    width: 250px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+input:focus{
+    outline: none;
+}
+
+button{
+    margin-top: 40px;
+    background: cornflowerblue;
+    border-radius: 20px;
+    border: 0;
+    height: 40px;
+    width: 200px;
+    color: white;
+    font-size: 15px;
+    box-shadow: 0 2px 10px #5785d2;
+}
+
+button:focus{
+    outline: 0;
+    background: #3e6098;
+}
